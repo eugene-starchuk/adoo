@@ -1,0 +1,58 @@
+.Loader
+    z-index: 999
+    position: fixed
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: row
+    font-size: 5vh
+    font-weight: 700
+    height: 100vh
+    width: 100vw
+    background: white
+    .loading_text
+        // animation: loading 1.5s ease-in-out infinite
+    .dot1
+        opacity: 0
+        animation: dotload1 2s linear infinite
+    .dot2
+        opacity: 0
+        animation: dotload2 2s linear infinite
+    .dot3
+        opacity: 0
+        animation: dotload3 2s linear infinite
+
+@keyframes loading
+    0%
+        opacity: .2
+    50%
+        opacity: 1
+    100%
+        opacity: .2
+@keyframes dotload1
+    0%
+        opacity: 0
+    20%
+        opacity: 0
+    25%
+        opacity: 1
+    100%
+        opacity: 1
+@keyframes dotload2
+    0%
+        opacity: 0
+    45%
+        opacity: 0
+    50%
+        opacity: 1
+    100%
+        opacity: 1
+@keyframes dotload3
+    0%
+        opacity: 0
+    70%
+        opacity: 0
+    75%
+        opacity: 1
+    100%
+        opacity: 1
