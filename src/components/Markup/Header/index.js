@@ -1,4 +1,3 @@
-import '../../../css/index.css';
 import HeaderContent from './HeaderContent';
 
 

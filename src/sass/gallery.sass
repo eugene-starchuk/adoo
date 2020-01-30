@@ -1,11 +1,9 @@
 .gallery
+    box-sizing: border-box
+    height: 85vh
     display: flex
-    width: 95vw
     flex-direction: row
-    flex-wrap: wrap
-    justify-content: flex-starts
     align-items: center
-    padding: 60px
     z-index: 999
     .item
         padding: 40px 80px 40px 0
@@ -29,3 +27,38 @@
         object-fit: cover
         height: 100%
         width: 100%
+    .viewer
+        box-sizing: border-box
+        width: 60vw
+        height: vh
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+    .itemsWindow
+        height: 85vh
+        width: 40vw
+        display: flex
+        flex-direction: row
+        flex-flow: row wrap
+        overflow: auto
+        z-index: 9
+    .siski
+        width: 200px
+        height: 200px
+        padding: 20px
+        z-index: 10
+    .siskiImg
+        box-sizing: border-box
+        border: 5px solid black
+        width: 100%
+        height: 100%
+        object-fit: cover
+    .siskiImgV
+        width: 100%
+        height: 100%
+        object-fit: contain
+    .BigSiski
+        height: 74vh
+        width: 45vw
+        z-index: 10
