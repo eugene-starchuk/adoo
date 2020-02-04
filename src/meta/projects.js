@@ -1,36 +1,33 @@
 // import * as meta from '../constants/meta';
+import img1 from '../public/img/IMG_4994.jpg';
 
 export default [
     {
-        id: 1,
-        source: 'http://www.ebalka.info/contents/videos_screenshots/12000/12845/preview.mp4.jpg',
+        index: 0,
+        source: 'https://imgurl.argumenti.ru/news/news_id/20190520091612-613831.jpg',
     },
     {
-        id: 2,
-        source: 'https://pbs.twimg.com/media/EGL_AhTXoAAJhl-.jpg',
+        index: 1,
+        source: 'https://i.pinimg.com/736x/e7/54/69/e754695324ff4fa4f913b1dd564114b5.jpg',
     },
     {
-        id: 3,
-        source: 'https://ci.phncdn.com/videos/201808/11/178216751/original/(m=eaf8Ggaaaa)(mh=CeHUmDl_r3dAjOuk)6.jpg',
+        index: 2,
+        source: 'https://memepedia.ru/wp-content/uploads/2019/07/vyydi-otsyuda-razboynik-2.jpg',
     },
     {
-        id: 4,
-        source: 'https://cs.pikabu.ru/post_img/2013/08/25/1/1377379889_917442145.jpg',
+        index: 3,
+        source: 'https://vogazeta.ru/uploads/full_size_1543995018-6d189c8135239cff96583ea2acf5c4c1.jpg',
     },
     {
-        id: 5,
-        source: 'https://porno666.cc/contents/videos_screenshots/8000/8461/505x297/6.jpg',
+        index: 4,
+        source: 'https://trikky.ru/wp-content/blogs.dir/1/files/2019/02/24/B11B77A7-F7EF-44BF-85B1-BB0252AAF3A1.jpeg',
     },
     {
-        id: 6,
-        source: 'https://devkis.me/uploads/posts/2019-10/1570857851_golaya-august-ames-porno-68.jpg',
+        index: 5,
+        source: 'https://lh3.googleusercontent.com/proxy/16xFKqAb9Bfn8m8RyPWZ6CRe8hH3hAIU_C2WXya2Ioftnj74XTfjR2QDCjn0a4L0GBr7f81EcxR08avgDNsII9jS7gb7fPwoZS5zfzI5T63LngSKsNUhb6Fqkj6i5TJP-EngdaLcrJ68ycd0BEFjwFqMZF1smWgJS1HrenOaeDx11Th1T9fx6xr3x8w26DUFsFp2urbBOTtez7u2CZZ-7hCKbwOYuaNGd1xznYK5G0ciqbyqcwbx0gGw8sPMmwd-JIp5P0Vg3-TE1mj3LNk61nMKi-0_HAd7hAoOw960p0x4SUhC7dEKCqnth7daCVcOSf56OGWnRa9Tw6nUF5etGZjvU9490se-hyhRpoU9TTQ5kntIR145Uw',
     },
     {
-        id: 7,
-        source: 'https://external-preview.redd.it/2JfuFvIa1wZ0OY_Erq0mdflxd0KMyfLJWx5r2ojLLWo.jpg?auto=webp&s=12108273d07fe939ad781dc3c5a5a719ad7dec26',
-    },
-    {
-        id: 8,
-        source: 'https://3.bp.blogspot.com/-V_vLT3yspg4/XQTNzwUQOEI/AAAAAAAAOqg/9EhuxxgO8M0j_bjJykpjE7uxeEPnQL-ZACLcBGAs/s1600/Hyuuga-Hinata-Yamanaka-Ino-and-Uzumaki-Kushina-Booboing-Naruto-Hentai.png',
+        index: 6,
+        source: img1,
     },
 ];

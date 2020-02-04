@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { connect, useSelector } from 'react-redux';
-
 // import backgraundSrc from '../../public/img/background.jpg';
 import '../../sass/main.sass';
 import {
@@ -24,21 +23,11 @@ const Markup = ({ index }) => {
             <div className='MarkupStyle'>
                 {index === 0 && <img className='сloudsBackStyle' src={CloudsBack} alt='eror' />}
                 {/* <img className='backgroundStyle' src={backgraundSrc} alt='eror' /> */}
-                {index === 2
-                    ? (
-                        <img
-                            className='backgroundStyle'
-                            src='https://pbs.twimg.com/media/EGL_AhTXoAAJhl-.jpg'
-                            alt='eror'
-                        />
-                    )
-                    : (
-                        <img
-                            className='backgroundStyle'
-                            src='https://qq1ncq.db.files.1drv.com/y4mYBkmV19G7ZHeNCR2uuaL5vkDR5A7yIY8v00orZ1MuVuehkISK931Vhuxb1oihSzhxKEjz1bQ1zAEzdcOFBgH_5c6L6vPm-bZWYipNMoKQxS9b_HsKiJVDi5RDQPU9qab8XoLQ8focZvCad0qRYQJunsKqlWpkHQwyja-x1UxzTyuv4GRoWTKNvHgH24W2COSQCG9bQn5JA0wI4oJDtVbVg?width=6555&height=4372&cropmode=none'
-                            alt='eror'
-                        />
-                    )}
+                <img
+                    className='backgroundStyle'
+                    src='https://qq1ncq.db.files.1drv.com/y4mYBkmV19G7ZHeNCR2uuaL5vkDR5A7yIY8v00orZ1MuVuehkISK931Vhuxb1oihSzhxKEjz1bQ1zAEzdcOFBgH_5c6L6vPm-bZWYipNMoKQxS9b_HsKiJVDi5RDQPU9qab8XoLQ8focZvCad0qRYQJunsKqlWpkHQwyja-x1UxzTyuv4GRoWTKNvHgH24W2COSQCG9bQn5JA0wI4oJDtVbVg?width=6555&height=4372&cropmode=none'
+                    alt='eror'
+                />
                 {index === 0 && <CloudsFront />}
                 <InfoBar />
                 <div className='content'>
