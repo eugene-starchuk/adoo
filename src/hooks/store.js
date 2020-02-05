@@ -4,7 +4,7 @@ import Immutable from 'seamless-immutable';
 
 const initialState = Immutable({
     selectedImage: 0,
-    selectedSource: 'https://imgurl.argumenti.ru/news/news_id/20190520091612-613831.jpg',
+    selectedSource: 'https://i.pinimg.com/originals/cc/11/66/cc11665c0f6565ab973907a73fa7d8b5.jpg',
 });
 
 const actions = {

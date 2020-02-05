@@ -1,11 +1,11 @@
 // import PropTypes from 'prop-types';
-// import classnames from 'classnames';
+import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import useGlobal from '../../../hooks/store';
 
 const Item = (props) => {
     const { source, index } = props;
-    const [, actions] = useGlobal();
+    const [store, actions] = useGlobal();
     const handleClick = () => {
         actions.setSelectedImage(index);
         actions.setSelectedSource(source);
@@ -13,14 +13,19 @@ const Item = (props) => {
     return (
         <div
             role='presentation'
+            // className='itemContainer'
             className='itemContainer'
             onClick={handleClick}
         >
-            <img
-                src={source}
-                alt='eror'
-                className='Img'
-            />
+            <div
+                className={classnames('imageContainer', { selected: store.selectedImage === index })}
+            >
+                <img
+                    src={source}
+                    alt='eror'
+                    className='Img'
+                />
+            </div>
         </div>
     );
 };
