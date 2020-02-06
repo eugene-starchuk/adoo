@@ -1,6 +1,8 @@
+@import '_config'
 @import 'header'
 @import 'helpers'
 @import 'gallery'
+@import 'home'
 
 
 body
@@ -46,6 +48,8 @@ body
     opacity: 0.9
 
 .infoBar
+    @media #{$media-phones}
+        display: none
     background-color: white
     width: 5vw
     height: 100vh
@@ -72,51 +76,3 @@ body
 .ContainerToolButton
     display: flex
     justify-content: center
-
-.pageContent
-    display: flex
-    width: 95vw
-    flex-direction: column
-    justify-content: center
-    align-content: center
-    z-index: 999
-
-.containerMainLogo
-    font-size: 100px
-    display: flex
-    height: 65vh
-    justify-content: center
-    align-items: center
-    font-weight: 800
-    text-shadow: 0 0 10px transparentize(black, .5)
-
-.mainLogo
-    display: flex
-    justify-content: center
-    transform: translateX(-52px) translateY(28px)
-    font-size: 8vh
-    font-weight: 700
-    text-transform: uppercase
-
-.containerNextButton
-    font-size: 100px
-    display: flex
-    justify-content: center
-    align-items: center
-    font-weight: 800
-    height: 20vh
-
-.nextButton
-    display: flex
-    transform: translateX(-35px)
-    justify-content: center
-    align-items: center
-    font-weight: 200
-    font-size: 11px
-    color: white
-    background-color: black
-    width: 180px
-    height: 35px
-    border-radius: 20px
-    &:hover
-        cursor: default

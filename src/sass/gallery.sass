@@ -1,4 +1,9 @@
 .gallery
+    @media #{$media-phones}
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 90vh
     box-sizing: border-box
     height: 85vh
     display: flex
@@ -6,14 +11,21 @@
     align-items: center
     z-index: 999
     .viewer
+        @media #{$media-phones}
+            display: none
         box-sizing: border-box
-        width: 59vw
-        height: vh
+        width: 60vw
         display: flex
         flex-direction: row
         justify-content: center
         align-items: center
     .itemsWindow
+        @media #{$media-phones}
+            display: flex
+            width: 100%
+            height: 100%
+            justify-content: center
+            align-items: center
         height: 70vh
         width: 32vw
         display: flex
@@ -21,22 +33,34 @@
         flex-wrap: wrap
         overflow: auto
     .itemContainer
+        @media #{$media-phones}
+            display: flex
+            width: 100%
+            height: unset
         box-sizing: border-box
         width: 16em
         height: 11em
         padding: 5px
     .imageContainer
+        @media #{$media-phones}
+            opacity: 1
         box-sizing: border-box
         width: 100%
         height: 100%
         opacity: 0.93
         z-index: 99
         &:hover
+            @media #{$media-phones}
+                box-shadow: none
             box-shadow: 0px 0px 5px 5px rgb(125, 126, 184)
             opacity: 1
         &.selected
+            @media #{$media-phones}
+                border: none
             border: 2px solid rgb(28, 213, 230)
     .Img
+        @media #{$media-phones}
+            object-fit: contain
         width: 100%
         height: 100%
         object-fit: cover
