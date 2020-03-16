@@ -2,7 +2,7 @@
 const MainLogo = () => (
     <div className='containerMainLogo'>
         <div className='mainLogo'>
-            web production
+            some text
         </div>
     </div>
 );

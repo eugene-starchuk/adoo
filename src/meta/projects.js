@@ -1,16 +1,4 @@
-// import * as meta from '../constants/meta';
-// https://imgur.com/nDrvfHA
-// https://imgur.com/BR2ESWP
-// https://imgur.com/BQdunG1
-// https://imgur.com/XVu2ymh
-// https://imgur.com/O0HEJwx
-// https://imgur.com/Hjj7Old
-// https://imgur.com/AZlFuG8
-// https://imgur.com/lovsJAp
-// https://imgur.com/tzuNSil
-// https://imgur.com/hc6AraL
-// https://imgur.com/JzzirEL
-// https://imgur.com/SIJi9pu
+
 export default [
     {
         index: 0,

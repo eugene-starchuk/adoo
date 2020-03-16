@@ -19,7 +19,7 @@ const Logo = () => {
                 <div className='o_dark o100' />
             </div>
             {/* <img className='logo_img' src={src} alt='logo' /> */}
-            <div className='logo_text'>Adooone</div>
+            <div className='logo_text'>Smtcool</div>
         </div>
     );
 };
